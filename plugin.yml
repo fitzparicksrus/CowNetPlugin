@@ -1,0 +1,20 @@
+name: CowNetPlugin
+main: us.fitzpatricksr.cownet.CowNetPlugin
+version: 1.0.0
+commands:
+  starve:
+      description: Starve mobs and players around you
+      usage: starve [radius] [damage]
+  bounce:
+      description: Bounce mobs and players around you
+      usage: bounce [radius] [velocity]
+permissions:
+    cownet.starve:
+        description: Starve creatures around you
+        default: true
+    cownet.bounce:
+        description: Bounce creatures around you
+        default: true
+    cownet.noswearing.allowed:
+        description: You are allowed to use bad words
+        default: false      

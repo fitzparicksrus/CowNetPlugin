@@ -1,0 +1,17 @@
+cownet:
+  enable: true
+
+starve:
+  enable: true
+  radius: 5
+  damage: 20
+
+bounce:
+  enable: true
+  velocity: 1
+  radius: 5
+
+noswearing:
+  enable: true
+  fireTicks: 5
+  bannedphrases: hell-ass
